@@ -1,5 +1,5 @@
 ################
-## DEPLOY VPC ##
+## DEPLOY VPC ###
 ################
 resource "aws_vpc" "vpc" {
   cidr_block           = "${var.vpc_cidr}.0.0/16"
