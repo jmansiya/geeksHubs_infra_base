@@ -36,7 +36,7 @@ variable "private_zone" {
 }
 
 ##############
-## ADD TAGS ##
+## ADD TAGS ###
 ##############
 variable "project" {
   default = "mc33"
