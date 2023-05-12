@@ -1,5 +1,5 @@
 ################################
-## CONFIGURATION AWS PRIVIDER ##
+## CONFIGURATION AWS PROVIDER ##
 ################################
 terraform {
   required_version = ">= 1.0.2"
