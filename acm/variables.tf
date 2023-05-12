@@ -39,7 +39,7 @@ variable "private_zone" {
 ## ADD TAGS ##
 ##############
 variable "project" {
-  default = "mc33"
+  default = "mtl05"
 }
 variable "env" {
   default = "dev"
