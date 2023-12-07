@@ -2,7 +2,7 @@
 ## DEPLOY REGION ##
 ###################
 variable "region" {
-  default = "eu-west-1"
+  default = "eu-west-3"
 }
 
 ## Ingrese los dos primeros optetos del CIDR:
@@ -43,7 +43,7 @@ variable "cant_nat" {
 ## ADD TAGS ##
 ##############
 variable "project" {
-  default = "infra052023"
+  default = "infra122023"
 }
 variable "env" {
   default = "dev"
