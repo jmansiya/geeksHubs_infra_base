@@ -12,7 +12,7 @@ terraform {
 }
 
 provider "aws" {
-  region = "eu-west-3"
+  region = "eu-west-1"
 }
 
 #########################
@@ -23,7 +23,7 @@ terraform {
   backend "s3" {
     bucket = "terraform-devops-dev"
     key    = "dev/vpc_terraform.tfstate"
-    region = "eu-west-3"
+    region = "eu-west-1"
   }
 }
 
