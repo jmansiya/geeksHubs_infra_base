@@ -29,8 +29,8 @@ provider "aws" {
 terraform {
   required_version = ">= 1.0.2"
   backend "s3" {
-    bucket = "terraform-devops-dev"
+    bucket = "terraform-devops-dev-paris"
     key    = "dev/key_terraform.tfstate"
-    region = "eu-west-1"
+    region = "eu-west-3"
   }
 }
