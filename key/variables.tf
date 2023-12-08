@@ -17,7 +17,7 @@ variable "key_list" {
 ##############
 variable "project" {
   description = "Project name"
-  default     = "mc33"
+  default     = "mc35"
 }
 variable "application" {
   description = "Application name"
