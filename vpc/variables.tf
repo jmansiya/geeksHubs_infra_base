@@ -43,10 +43,10 @@ variable "cant_nat" {
 ## ADD TAGS ##
 ##############
 variable "project" {
-  default = "infra122024"
+  default = "infra062024"
 }
 variable "env" {
-  default = "dev"
+  default = "prod"
 }
 variable "creator" {
   default = "DevOps Team"
