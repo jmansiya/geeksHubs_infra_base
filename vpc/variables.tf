@@ -43,7 +43,7 @@ variable "cant_nat" {
 ## ADD TAGS ##
 ##############
 variable "project" {
-  default = "infra122023"
+  default = "infra122024"
 }
 variable "env" {
   default = "dev"
